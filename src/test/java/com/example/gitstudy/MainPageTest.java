@@ -23,7 +23,7 @@ public class MainPageTest {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.get("https://www.jetbrains.com/");
+        driver.get("https://wwww.google.com");
 
         mainPage = new MainPage(driver);
     }
